@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T00:54:28.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="HyCe9qF8ziIlxpNmjIdh" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T01:04:41.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="taEus97ZSwYnOZ7I18an" version="15.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1113" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="378" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="qGOXJuil2sutBYdM2akC-37" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=bottom;labelBackgroundColor=none;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qGOXJuil2sutBYdM2akC-31" target="qGOXJuil2sutBYdM2akC-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="760" as="sourcePoint" />
+            <mxPoint x="716" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qGOXJuil2sutBYdM2akC-0" value="类名" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="310" width="160" height="122" as="geometry">
             <mxRectangle x="330" y="260" width="60" height="26" as="alternateBounds" />
@@ -50,6 +56,24 @@
         </mxCell>
         <mxCell id="qGOXJuil2sutBYdM2akC-22" value="" style="triangle;aspect=fixed;fillColor=default;hachureGap=4;pointerEvents=0;rotation=270;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="387" y="690" width="6" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="qGOXJuil2sutBYdM2akC-26" value="用实线和空心三角表示子类关系。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="235" y="560" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qGOXJuil2sutBYdM2akC-30" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;抽象类&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&amp;nbsp;方法&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGOXJuil2sutBYdM2akC-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;具体类&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&amp;nbsp;方法&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGOXJuil2sutBYdM2akC-36" value="实现方法&lt;br&gt;伪代码" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;hachureGap=4;pointerEvents=0;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qGOXJuil2sutBYdM2akC-44" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="804" y="680" width="12" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qGOXJuil2sutBYdM2akC-38" value="" style="triangle;aspect=fixed;fillColor=#FFFFFF;hachureGap=4;pointerEvents=0;rotation=270;" vertex="1" parent="qGOXJuil2sutBYdM2akC-44">
+          <mxGeometry x="3" y="15" width="6" height="12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
