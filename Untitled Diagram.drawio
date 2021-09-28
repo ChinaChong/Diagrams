@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T00:20:50.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="KTeTJz-L-8cYkmPh6BmU" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T00:25:08.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="IMdwVSu6ccqL-jZ_TDQn" version="15.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -32,6 +32,9 @@
             <mxPoint x="600" y="500" as="sourcePoint" />
             <mxPoint x="800" y="384" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qGOXJuil2sutBYdM2akC-16" value="虚箭头线表示一个类实例化另一个类的对象，箭头指向被实例化的对象的类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="330" width="310" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
