@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T13:19:23.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="o75fn_5CjpHpQWUC4OUg" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T07:15:10.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="2AgmXw4OTtMb-3pbHSWh" version="17.4.6" type="github">
   <diagram id="he9bxZUku_yFXdmUKrTk" name="第 1 页">
-    <mxGraphModel dx="1666" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1236" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,33 +8,32 @@
           <mxGeometry x="130" y="90" width="1460" height="370" as="geometry" />
         </mxCell>
         <mxCell id="0aP-q9_bjXwNO8tc250L-19" value="NoxPay" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="720" width="100" height="510" as="geometry" />
+          <mxGeometry x="310" y="2550" width="100" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="0aP-q9_bjXwNO8tc250L-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" parent="0aP-q9_bjXwNO8tc250L-19" vertex="1">
-          <mxGeometry x="50" y="119.99999999999999" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0aP-q9_bjXwNO8tc250L-21" value="2. downloadMaterial:" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;exitX=1.039;exitY=0.514;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;" parent="0aP-q9_bjXwNO8tc250L-19" source="0aP-q9_bjXwNO8tc250L-23" target="0aP-q9_bjXwNO8tc250L-20" edge="1">
-          <mxGeometry x="0.0757" y="-25" relative="1" as="geometry">
-            <mxPoint x="50" y="110" as="sourcePoint" />
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-9" value="4. downloadWithConfig:" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;rounded=0;labelBackgroundColor=default;labelBorderColor=none;" edge="1" parent="0aP-q9_bjXwNO8tc250L-19" target="JyLLRCwpfof4L6FhiP5H-8">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="160" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="85" y="81" />
-              <mxPoint x="85" y="140" />
+              <mxPoint x="100.5" y="160" />
             </Array>
-            <mxPoint x="60" y="150" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0aP-q9_bjXwNO8tc250L-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" parent="0aP-q9_bjXwNO8tc250L-19" vertex="1">
-          <mxGeometry x="40" y="60" width="10" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="0aP-q9_bjXwNO8tc250L-22" value="Demo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="720" width="100" height="510" as="geometry" />
+          <mxGeometry x="170" y="2550" width="100" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="0aP-q9_bjXwNO8tc250L-24" value="&lt;span style=&quot;text-align: left ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;1. startWithSDKInfo:&lt;/font&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;fontSize=10;" parent="1" source="0aP-q9_bjXwNO8tc250L-22" target="0aP-q9_bjXwNO8tc250L-23" edge="1">
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-7" value="&lt;span style=&quot;font-size: 10px ; text-align: left&quot;&gt;1. startWithSDKInfo:&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="0aP-q9_bjXwNO8tc250L-22" source="0aP-q9_bjXwNO8tc250L-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="80" as="sourcePoint" />
+            <mxPoint x="190" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-12" value="2. progress + result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="0aP-q9_bjXwNO8tc250L-22">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="780" as="sourcePoint" />
+            <mxPoint x="190" y="280" as="sourcePoint" />
+            <mxPoint x="50" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="800" />
+              <mxPoint x="190.95" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -105,6 +104,113 @@
         </mxCell>
         <mxCell id="uPjyEyqXYFTb5mDzEihQ-55" value="不保存block，直接使用block返回保存数据" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-4" value="NPNetwork" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2550" width="100" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-6" value="3. response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-4" target="0aP-q9_bjXwNO8tc250L-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="2760" as="sourcePoint" />
+            <mxPoint x="420" y="2760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="2670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-5" value="2. POST:" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="0aP-q9_bjXwNO8tc250L-19" target="JyLLRCwpfof4L6FhiP5H-4">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="360" y="2730" as="sourcePoint" />
+            <mxPoint x="420" y="2730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="2630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-8" value="&lt;font style=&quot;font-size: 11px&quot;&gt;NPMaterialControlSDK&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2550" width="130" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-10" value="5. progress + result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="JyLLRCwpfof4L6FhiP5H-8" target="0aP-q9_bjXwNO8tc250L-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <mxPoint x="-70" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="0.5" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-11" value="&lt;span style=&quot;font-size: 10px ; text-align: left&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;downloadMaterial:&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="219.99761904761925" y="2790" as="sourcePoint" />
+            <mxPoint x="360.45" y="2790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-16" target="JyLLRCwpfof4L6FhiP5H-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;NoxPay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&amp;nbsp;- startWithSDKInfo:&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;labelBorderColor=none;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-17" target="JyLLRCwpfof4L6FhiP5H-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-23" value="request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="JyLLRCwpfof4L6FhiP5H-20">
+          <mxGeometry x="0.0321" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;NoxPay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&amp;nbsp;- pullServerConfig&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=11;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-19" target="JyLLRCwpfof4L6FhiP5H-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="625" />
+              <mxPoint x="470" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-22" value="response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="JyLLRCwpfof4L6FhiP5H-21">
+          <mxGeometry x="-0.1597" y="2" relative="1" as="geometry">
+            <mxPoint x="-7" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=5;startArrow=none;startFill=0;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-17" target="JyLLRCwpfof4L6FhiP5H-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="660" />
+              <mxPoint x="680" y="660" />
+              <mxPoint x="680" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-19" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;NPNetwork&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;+&amp;nbsp;POST:param:complete:&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="580" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=11;startArrow=none;startFill=0;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-24" target="JyLLRCwpfof4L6FhiP5H-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="610" />
+              <mxPoint x="860" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=5;startArrow=none;startFill=0;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-24" target="JyLLRCwpfof4L6FhiP5H-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;NoxPay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&amp;nbsp;- handleServerConfig&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;NoxPay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&amp;nbsp;- extractMaterialConfig&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="510" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=5;startArrow=none;startFill=0;" edge="1" parent="1" source="JyLLRCwpfof4L6FhiP5H-32" target="JyLLRCwpfof4L6FhiP5H-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-32" value="&lt;p style=&quot;margin: 4px 0px 0px ; font-size: 5px&quot;&gt;&lt;b style=&quot;font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;NoxPay&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;font-size: 5px&quot;&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&amp;nbsp;- downloadMaterialBackground&lt;/font&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyLLRCwpfof4L6FhiP5H-35" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;&lt;span style=&quot;font-size: 5px&quot;&gt;&lt;b&gt;NPMaterialControlSDK&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;font-size: 5px&quot;&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;height: 2px ; font-size: 5px&quot;&gt;&lt;font style=&quot;font-size: 5px&quot;&gt;&amp;nbsp;- downloadWithConfig:progress:complete:&lt;/font&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="580" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
